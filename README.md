@@ -1,3 +1,3 @@
-# Alibaba Cloud ossutil
+# drone-plugin-ossutil
 
-Build a container with [ossutil](https://github.com/aliyun/ossutil).
+Build a drone plugin with [ossutil](https://github.com/aliyun/ossutil).
