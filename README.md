@@ -1,3 +1,3 @@
-# Alibaba Cloud ossutil
+# docker-ossutil
 
-Build a container with [ossutil](https://github.com/aliyun/ossutil).
+Build a image with [ossutil](https://github.com/aliyun/ossutil).

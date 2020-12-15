@@ -9,6 +9,6 @@ RUN apk add --no-cache curl git && \
     go build && \
     cp ossutil-${OSSUTIL_VERSION} / 
 
-FROM scratch as runner
+FROM alpine as runner
 ENV OSSUTIL_VERSION 1.7.0
 COPY --from=build /ossutil-${OSSUTIL_VERSION} /usr/local/bin/ossutil
